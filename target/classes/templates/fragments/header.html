@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div
+
+    th:fragment="headerinc">
+    <title>Spring Project<\title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</div>
+
+    <div th:fragment="header">
+
+
+
+            <a>
+                th:href="@{/}">Home</a>a>
+            <ul>
+                <li><a th:href="@{/user.regsiter}">Register</a></li>
+                <li><a th:href="@{/user.search}">Search</a></li>
+
+            </ul>
+
+            </a>
+
+
+
+
+    </div>
+
+</html>
